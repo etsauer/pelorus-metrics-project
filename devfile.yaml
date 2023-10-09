@@ -72,6 +72,23 @@ components:
 - volume:
     size: 2Gi
   name: prometheus-data
+- name: keycloak
+  container:
+    image: quay.io/keycloak/keycloak:22.0.4
+    sourceMapping: /projects
+    args:
+      - "start-dev"
+    env:
+      - name: KC_HTTP_PORT
+        value: "8081"
+      - name: KEYCLOAK_ADMIN
+        value: admin
+      - name: KEYCLOAK_ADMIN_PASSWORD
+        value: admin
+    endpoints:
+      - exposure: public
+        name: keycloak
+        targetPort: 8081
 - name: oc-cli
   container:
     args:
