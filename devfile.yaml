@@ -76,6 +76,7 @@ components:
   container:
     image: quay.io/keycloak/keycloak:22.0.4
     sourceMapping: /projects
+    memoryLimit: 1Gi
     args:
       - "start-dev"
     env:
