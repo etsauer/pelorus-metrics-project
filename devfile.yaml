@@ -49,6 +49,29 @@ components:
 - volume:
     size: 4Gi
   name: home
+- name: prometheus
+  container:
+    image: quay.io/prometheus/prometheus:v2.43.0
+    sourceMapping: /projects
+    args:
+      - '--config.file=/projects/pelorus-metrics-project/dev-init/prometheus.yaml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/usr/share/prometheus/console_libraries'
+      - '--web.console.templates=/usr/share/prometheus/consoles'
+    command:
+      - '/bin/prometheus'
+    endpoints:
+      - exposure: public
+        name: prometheus
+        targetPort: 9090
+    memoryRequest: 32M
+    memoryLimit: 128M
+    volumeMounts:
+      - name: prometheus-data
+        path: /prometheus
+- volume:
+    size: 2Gi
+  name: prometheus-data
 - name: oc-cli
   container:
     args:
