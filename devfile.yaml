@@ -39,7 +39,7 @@ components:
     - name: HISTFILE
       value: "/projects/home/.sh_history"
     - name: VSCODE_DEFAULT_WORKSPACE
-      value: "/projects/my-che-workspace/my-workspace.code-workspace"
+      value: "/projects/pelorus-metrics-project/pelorus-metrics-project.code-workspace"
     volumeMounts:
     - name: home
       path: /projects/home
