@@ -1,0 +1,71 @@
+schemaVersion: 2.2.0
+attributes:
+  controller.devfile.io/storage-type: per-workspace
+metadata:
+  name: pelorus-workspace
+projects:
+  - name: pelorus-metrics-project
+    git:
+      checkoutFrom:
+        remote: origin
+        revision: main
+      remotes:
+        origin: https://github.com/lab-monkeys/pelorus-metrics-project.git
+  - name: pelorus-metrics-api
+    git:
+      checkoutFrom:
+        remote: origin
+        revision: main
+      remotes:
+        origin: https://github.com/lab-monkeys/pelorus-metrics-api.git
+  - name: developer-intelligence-prototype
+    git:
+      checkoutFrom:
+        remote: origin
+        revision: main
+      remotes:
+        origin: https://github.com/lab-monkeys/developer-intelligence-prototype.git
+components:
+- name: dev-tools
+  container: 
+    image: quay.io/cgruver0/che/che-dev-image:latest
+    memoryLimit: 6Gi
+    mountSources: true
+    env:
+    - name: SHELL
+      value: "/bin/zsh"
+    - name: HOME
+      value: "/projects/home"
+    - name: HISTFILE
+      value: "/projects/home/.sh_history"
+    - name: VSCODE_DEFAULT_WORKSPACE
+      value: "/projects/my-che-workspace/my-workspace.code-workspace"
+    volumeMounts:
+    - name: home
+      path: /projects/home
+- volume:
+    size: 10Gi
+  name: projects
+- volume:
+    size: 4Gi
+  name: home
+- name: oc-cli
+  container:
+    args:
+      - '-c'
+      - >-
+        mkdir -p /projects/bin && cp /usr/bin/oc /projects/bin/oc && cp /usr/bin/kubectl /projects/bin/kubectl
+    command:
+      - /bin/bash
+    image: image-registry.openshift-image-registry.svc:5000/openshift/cli:latest
+    sourceMapping: /projects
+    mountSources: true
+    memoryLimit: 256M
+commands:
+- apply:
+    component: oc-cli
+    label: Copy OpenShift CLI
+  id: cp-oc-cli
+events:
+  preStart:
+    - cp-oc-cli
