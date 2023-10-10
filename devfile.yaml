@@ -107,6 +107,12 @@ commands:
     component: oc-cli
     label: Copy OpenShift CLI
   id: cp-oc-cli
+- exec:
+    commandLine: ${PROJECT_SOURCE}/dev-init/keycloak.sh
+    component: keycloak
+  id: init-keycloak
 events:
   preStart:
     - cp-oc-cli
+  postStart:
+    - init-keycloak
