@@ -3,7 +3,13 @@
 KCADM=/opt/keycloak/bin/kcadm.sh
 KCADM_CONFIG=/tmp/kcadm.config
 
-${KCADM} config credentials --server http://localhost:8081 --realm master --user admin --password admin --config ${KCADM_CONFIG} 
+echo "Waiting for KeyCloak to start"
+while ! ${KCADM} config credentials --server http://localhost:8081 --realm master --user admin --password admin --config ${KCADM_CONFIG}
+do
+  printf '.'
+  sleep 5
+done
+
 ${KCADM} create realms -s realm=pelorus -s enabled=true -o --config ${KCADM_CONFIG} 
 ${KCADM} create users -r pelorus -s username=pelorus-metrics -s enabled=true --config ${KCADM_CONFIG} 
 ${KCADM} set-password -r pelorus --username pelorus-metrics --new-password pelorus --config ${KCADM_CONFIG} 
