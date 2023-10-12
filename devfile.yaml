@@ -11,13 +11,13 @@ projects:
         revision: main
       remotes:
         origin: https://github.com/lab-monkeys/pelorus-metrics-project.git
-  - name: pelorus-metrics-api
+  - name: pelorus-api
     git:
       checkoutFrom:
         remote: origin
         revision: main
       remotes:
-        origin: https://github.com/lab-monkeys/pelorus-metrics-api.git
+        origin: https://github.com/etsauer/pelorus-api.git
   - name: developer-intelligence-prototype
     git:
       checkoutFrom:
