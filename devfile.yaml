@@ -45,6 +45,7 @@ components:
       path: /home/user/.npm
     endpoints:
       - exposure: public
+        protocol: https
         name: pelorus-metrics
         targetPort: 3000
 - volume:
@@ -93,8 +94,13 @@ components:
         value: admin
       - name: KEYCLOAK_ADMIN_PASSWORD
         value: admin
+      - name: PROXY_ADDRESS_FORWARDING
+        value: "true"
+      - name: KC_PROXY
+        value: edge
     endpoints:
       - exposure: public
+        protocol: https
         name: keycloak
         targetPort: 8081
 - name: oc-cli
@@ -115,11 +121,22 @@ commands:
     label: Copy OpenShift CLI
   id: cp-oc-cli
 - exec:
-    commandLine: "${PROJECT_SOURCE}/dev-init/keycloak.sh"
+    commandLine: ". ${PROJECTS_ROOT}/env-tmp/set-env.sh ; export NODE_EXTRA_CA_CERTS=/tmp/node-extra-certificates/ca.crt ; npm run dev"
+    component: dev-tools
+    workingDir: "${PROJECTS_ROOT}/developer-intelligence-prototype"
+    label: "Developer Intelligence Dev Mode"
+  id: dev-intel-run
+- exec:
+    commandLine: "nohup ${PROJECT_SOURCE}/dev-init/env-init.sh > ${PROJECTS_ROOT}/env-init.log 2>&1 &"
+    component: dev-tools
+  id: init-env
+- exec:
+    commandLine: "nohup ${PROJECT_SOURCE}/dev-init/keycloak.sh> ${PROJECTS_ROOT}/keycloak-init.log 2>&1 &"
     component: keycloak
   id: init-keycloak
 events:
   preStart:
     - cp-oc-cli
   postStart:
+    - init-env
     - init-keycloak
