@@ -7,7 +7,7 @@
 			"path": "../developer-intelligence-prototype"
 		},
 		{
-			"path": "../pelorus-metrics-api"
+			"path": "../pelorus-api"
 		}
 	],
 	"extensions": {
