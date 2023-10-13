@@ -1,0 +1,3254 @@
+{
+  "awesome": true,
+  "applications": [
+    {
+      "id": "projectcrimson",
+      "name": "ProjectCrimson",
+      "metrics": [
+        {
+          "data": [
+            {
+              "date": "2023-06-30",
+              "goal": 15,
+              "expectedRange": [
+                10,
+                21
+              ],
+              "rollingAverage": 15
+            },
+            {
+              "date": "2023-07-01",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-02",
+              "goal": 15,
+              "expectedRange": [
+                14,
+                24
+              ],
+              "rollingAverage": 20
+            },
+            {
+              "date": "2023-07-03",
+              "goal": 15,
+              "expectedRange": [
+                4,
+                14
+              ],
+              "rollingAverage": 8
+            },
+            {
+              "date": "2023-07-04",
+              "goal": 15,
+              "expectedRange": [
+                6,
+                16
+              ],
+              "rollingAverage": 11
+            },
+            {
+              "date": "2023-07-05",
+              "goal": 15,
+              "expectedRange": [
+                20,
+                28
+              ],
+              "rollingAverage": 24
+            },
+            {
+              "date": "2023-07-06",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-07",
+              "goal": 15,
+              "expectedRange": [
+                10,
+                24
+              ],
+              "rollingAverage": 18
+            },
+            {
+              "date": "2023-07-08",
+              "goal": 15,
+              "expectedRange": [
+                4,
+                18
+              ],
+              "rollingAverage": 10
+            },
+            {
+              "date": "2023-07-09",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-10",
+              "goal": 15,
+              "expectedRange": [
+                16,
+                28
+              ],
+              "rollingAverage": 23
+            },
+            {
+              "date": "2023-07-11",
+              "goal": 15,
+              "expectedRange": [
+                2,
+                12
+              ],
+              "rollingAverage": 6
+            },
+            {
+              "date": "2023-07-12",
+              "goal": 15,
+              "expectedRange": [
+                8,
+                18
+              ],
+              "rollingAverage": 12
+            },
+            {
+              "date": "2023-07-13",
+              "goal": 15,
+              "expectedRange": [
+                12,
+                24
+              ],
+              "rollingAverage": 19
+            },
+            {
+              "date": "2023-07-14",
+              "goal": 15,
+              "expectedRange": [
+                2,
+                12
+              ],
+              "rollingAverage": 7
+            },
+            {
+              "date": "2023-07-15",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                10
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-16",
+              "goal": 15,
+              "expectedRange": [
+                4,
+                16
+              ],
+              "rollingAverage": 9
+            },
+            {
+              "date": "2023-07-17",
+              "goal": 15,
+              "expectedRange": [
+                14,
+                28
+              ],
+              "rollingAverage": 21
+            },
+            {
+              "date": "2023-07-18",
+              "goal": 15,
+              "expectedRange": [
+                2,
+                12
+              ],
+              "rollingAverage": 5
+            },
+            {
+              "date": "2023-07-19",
+              "goal": 15,
+              "expectedRange": [
+                10,
+                20
+              ],
+              "rollingAverage": 40
+            },
+            {
+              "date": "2023-07-20",
+              "goal": 15,
+              "expectedRange": [
+                14,
+                30
+              ],
+              "rollingAverage": 22
+            },
+            {
+              "date": "2023-07-21",
+              "goal": 15,
+              "expectedRange": [
+                12,
+                18
+              ],
+              "rollingAverage": 13
+            },
+            {
+              "date": "2023-07-22",
+              "goal": 15,
+              "expectedRange": [
+                12,
+                22
+              ],
+              "rollingAverage": 17
+            },
+            {
+              "date": "2023-07-23",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                10
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-24",
+              "goal": 15,
+              "expectedRange": [
+                20,
+                32
+              ],
+              "rollingAverage": 25
+            },
+            {
+              "date": "2023-07-25",
+              "goal": 15,
+              "expectedRange": [
+                8,
+                20
+              ],
+              "rollingAverage": 14
+            },
+            {
+              "date": "2023-07-26",
+              "goal": 15,
+              "expectedRange": [
+                2,
+                12
+              ],
+              "rollingAverage": 7
+            },
+            {
+              "date": "2023-07-27",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                10
+              ],
+              "rollingAverage": 3
+            }
+          ],
+          "type": "change-failure-rate"
+        },
+        {
+          "data": [
+            {
+              "date": "2023-06-30",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-01",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                3
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-02",
+              "goal": 2,
+              "expectedRange": [
+                1,
+                5
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-03",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                2
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-04",
+              "goal": 2,
+              "expectedRange": [
+                2,
+                6
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-05",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                3
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-06",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-07",
+              "goal": 2,
+              "expectedRange": [
+                1,
+                5
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-08",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                2
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-09",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-10",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-11",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                3
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-12",
+              "goal": 2,
+              "expectedRange": [
+                1,
+                5
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-13",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                2
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-14",
+              "goal": 2,
+              "expectedRange": [
+                2,
+                6
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-15",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                3
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-16",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-17",
+              "goal": 2,
+              "expectedRange": [
+                1,
+                5
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-18",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-19",
+              "goal": 2,
+              "expectedRange": [
+                2,
+                6
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-20",
+              "goal": 2,
+              "expectedRange": [
+                2,
+                4
+              ],
+              "rollingAverage": 10
+            },
+            {
+              "date": "2023-07-21",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                3
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-22",
+              "goal": 2,
+              "expectedRange": [
+                1,
+                5
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-23",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                3
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-24",
+              "goal": 2,
+              "expectedRange": [
+                2,
+                6
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-25",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                3
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-26",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-27",
+              "goal": 2,
+              "expectedRange": [
+                1,
+                5
+              ],
+              "rollingAverage": 3
+            }
+          ],
+          "type": "deployment-frequency"
+        },
+        {
+          "data": [
+            {
+              "date": "2023-06-30",
+              "goal": 1,
+              "expectedRange": [
+                6,
+                14
+              ],
+              "rollingAverage": 10
+            },
+            {
+              "date": "2023-07-01",
+              "goal": 1,
+              "expectedRange": [
+                1,
+                9
+              ],
+              "rollingAverage": 5
+            },
+            {
+              "date": "2023-07-02",
+              "goal": 1,
+              "expectedRange": [
+                4,
+                12
+              ],
+              "rollingAverage": 8
+            },
+            {
+              "date": "2023-07-03",
+              "goal": 1,
+              "expectedRange": [
+                10,
+                18
+              ],
+              "rollingAverage": 14
+            },
+            {
+              "date": "2023-07-04",
+              "goal": 1,
+              "expectedRange": [
+                8,
+                16
+              ],
+              "rollingAverage": 12
+            },
+            {
+              "date": "2023-07-05",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-06",
+              "goal": 1,
+              "expectedRange": [
+                5,
+                13
+              ],
+              "rollingAverage": 9
+            },
+            {
+              "date": "2023-07-07",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-08",
+              "goal": 1,
+              "expectedRange": [
+                7,
+                15
+              ],
+              "rollingAverage": 11
+            },
+            {
+              "date": "2023-07-09",
+              "goal": 1,
+              "expectedRange": [
+                3,
+                11
+              ],
+              "rollingAverage": 7
+            },
+            {
+              "date": "2023-07-10",
+              "goal": 1,
+              "expectedRange": [
+                9,
+                17
+              ],
+              "rollingAverage": 13
+            },
+            {
+              "date": "2023-07-11",
+              "goal": 1,
+              "expectedRange": [
+                2,
+                10
+              ],
+              "rollingAverage": 6
+            },
+            {
+              "date": "2023-07-12",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-13",
+              "goal": 1,
+              "expectedRange": [
+                6,
+                14
+              ],
+              "rollingAverage": 10
+            },
+            {
+              "date": "2023-07-14",
+              "goal": 1,
+              "expectedRange": [
+                4,
+                12
+              ],
+              "rollingAverage": 8
+            },
+            {
+              "date": "2023-07-15",
+              "goal": 1,
+              "expectedRange": [
+                8,
+                16
+              ],
+              "rollingAverage": 12
+            },
+            {
+              "date": "2023-07-16",
+              "goal": 1,
+              "expectedRange": [
+                1,
+                9
+              ],
+              "rollingAverage": 5
+            },
+            {
+              "date": "2023-07-17",
+              "goal": 1,
+              "expectedRange": [
+                3,
+                11
+              ],
+              "rollingAverage": 7
+            },
+            {
+              "date": "2023-07-18",
+              "goal": 1,
+              "expectedRange": [
+                5,
+                13
+              ],
+              "rollingAverage": 9
+            },
+            {
+              "date": "2023-07-19",
+              "goal": 1,
+              "expectedRange": [
+                7,
+                15
+              ],
+              "rollingAverage": 11
+            },
+            {
+              "date": "2023-07-20",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-21",
+              "goal": 1,
+              "expectedRange": [
+                2,
+                10
+              ],
+              "rollingAverage": 6
+            },
+            {
+              "date": "2023-07-22",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-23",
+              "goal": 1,
+              "expectedRange": [
+                7,
+                17
+              ],
+              "rollingAverage": 13
+            },
+            {
+              "date": "2023-07-24",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-25",
+              "goal": 1,
+              "expectedRange": [
+                10,
+                18
+              ],
+              "rollingAverage": 14
+            },
+            {
+              "date": "2023-07-26",
+              "goal": 1,
+              "expectedRange": [
+                6,
+                14
+              ],
+              "rollingAverage": 10
+            },
+            {
+              "date": "2023-07-27",
+              "goal": 1,
+              "expectedRange": [
+                1,
+                9
+              ],
+              "rollingAverage": 5
+            }
+          ],
+          "type": "lead-time-for-change"
+        },
+        {
+          "data": [
+            {
+              "date": "2023-06-30",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-01",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-02",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-03",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-04",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-05",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-06",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-07",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-08",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-09",
+              "goal": 1,
+              "expectedRange": [
+                1,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-10",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-11",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-12",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-13",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-14",
+              "goal": 1,
+              "expectedRange": [
+                1,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-15",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-16",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-17",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-18",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-19",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-20",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-21",
+              "goal": 1,
+              "expectedRange": [
+                1,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-22",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-23",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-24",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-25",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-26",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-27",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 4
+            }
+          ],
+          "type": "mean-time-to-recovery"
+        }
+      ],
+      "platform": "Gitlab",
+      "scorecard": [
+        {
+          "data": [
+            {
+              "date": "Mar",
+              "score": 75
+            },
+            {
+              "date": "Apr",
+              "score": 88
+            },
+            {
+              "date": "May",
+              "score": 94
+            },
+            {
+              "date": "Jun",
+              "score": 85
+            },
+            {
+              "date": "Jul",
+              "score": 89,
+              "projected": 89
+            },
+            {
+              "date": "Aug",
+              "projected": 94
+            },
+            {
+              "date": "Sep",
+              "projected": 90
+            },
+            {
+              "date": "Oct",
+              "projected": 75
+            },
+            {
+              "date": "Nov",
+              "projected": 80
+            },
+            {
+              "date": "Dec",
+              "projected": 95
+            }
+          ],
+          "current": 89
+        }
+      ]
+    },
+    {
+      "id": "codefedora/firestitch",
+      "name": "CodeFedora/FireStitch",
+      "metrics": [
+        {
+          "data": [
+            {
+              "date": "2023-06-30",
+              "goal": 15,
+              "expectedRange": [
+                10,
+                18
+              ],
+              "rollingAverage": 14
+            },
+            {
+              "date": "2023-07-01",
+              "goal": 15,
+              "expectedRange": [
+                3,
+                11
+              ],
+              "rollingAverage": 7
+            },
+            {
+              "date": "2023-07-02",
+              "goal": 15,
+              "expectedRange": [
+                18,
+                26
+              ],
+              "rollingAverage": 22
+            },
+            {
+              "date": "2023-07-03",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-04",
+              "goal": 15,
+              "expectedRange": [
+                14,
+                22
+              ],
+              "rollingAverage": 18
+            },
+            {
+              "date": "2023-07-05",
+              "goal": 15,
+              "expectedRange": [
+                1,
+                9
+              ],
+              "rollingAverage": 5
+            },
+            {
+              "date": "2023-07-06",
+              "goal": 15,
+              "expectedRange": [
+                5,
+                13
+              ],
+              "rollingAverage": 9
+            },
+            {
+              "date": "2023-07-07",
+              "goal": 15,
+              "expectedRange": [
+                16,
+                24
+              ],
+              "rollingAverage": 20
+            },
+            {
+              "date": "2023-07-08",
+              "goal": 15,
+              "expectedRange": [
+                18,
+                26
+              ],
+              "rollingAverage": 55
+            },
+            {
+              "date": "2023-07-09",
+              "goal": 15,
+              "expectedRange": [
+                8,
+                16
+              ],
+              "rollingAverage": 12
+            },
+            {
+              "date": "2023-07-10",
+              "goal": 15,
+              "expectedRange": [
+                20,
+                28
+              ],
+              "rollingAverage": 24
+            },
+            {
+              "date": "2023-07-11",
+              "goal": 15,
+              "expectedRange": [
+                2,
+                10
+              ],
+              "rollingAverage": 6
+            },
+            {
+              "date": "2023-07-12",
+              "goal": 15,
+              "expectedRange": [
+                7,
+                15
+              ],
+              "rollingAverage": 11
+            },
+            {
+              "date": "2023-07-13",
+              "goal": 15,
+              "expectedRange": [
+                15,
+                23
+              ],
+              "rollingAverage": 19
+            },
+            {
+              "date": "2023-07-14",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-15",
+              "goal": 15,
+              "expectedRange": [
+                11,
+                19
+              ],
+              "rollingAverage": 15
+            },
+            {
+              "date": "2023-07-16",
+              "goal": 15,
+              "expectedRange": [
+                19,
+                27
+              ],
+              "rollingAverage": 23
+            },
+            {
+              "date": "2023-07-17",
+              "goal": 15,
+              "expectedRange": [
+                4,
+                12
+              ],
+              "rollingAverage": 8
+            },
+            {
+              "date": "2023-07-18",
+              "goal": 15,
+              "expectedRange": [
+                13,
+                21
+              ],
+              "rollingAverage": 17
+            },
+            {
+              "date": "2023-07-19",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-20",
+              "goal": 15,
+              "expectedRange": [
+                6,
+                14
+              ],
+              "rollingAverage": 10
+            },
+            {
+              "date": "2023-07-21",
+              "goal": 15,
+              "expectedRange": [
+                17,
+                25
+              ],
+              "rollingAverage": 21
+            },
+            {
+              "date": "2023-07-22",
+              "goal": 15,
+              "expectedRange": [
+                9,
+                17
+              ],
+              "rollingAverage": 13
+            },
+            {
+              "date": "2023-07-23",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-24",
+              "goal": 15,
+              "expectedRange": [
+                21,
+                29
+              ],
+              "rollingAverage": 25
+            },
+            {
+              "date": "2023-07-25",
+              "goal": 15,
+              "expectedRange": [
+                12,
+                20
+              ],
+              "rollingAverage": 16
+            },
+            {
+              "date": "2023-07-26",
+              "goal": 15,
+              "expectedRange": [
+                3,
+                11
+              ],
+              "rollingAverage": 7
+            },
+            {
+              "date": "2023-07-27",
+              "goal": 15,
+              "expectedRange": [
+                1,
+                9
+              ],
+              "rollingAverage": 5
+            }
+          ],
+          "type": "change-failure-rate"
+        },
+        {
+          "data": [
+            {
+              "date": "2023-06-30",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-01",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-02",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-03",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-04",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-05",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-06",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-07",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-08",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-09",
+              "goal": 2,
+              "expectedRange": [
+                2,
+                6
+              ],
+              "rollingAverage": 11
+            },
+            {
+              "date": "2023-07-10",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-11",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-12",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-13",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-14",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-15",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-16",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-17",
+              "goal": 2,
+              "expectedRange": [
+                1,
+                4
+              ],
+              "rollingAverage": 7
+            },
+            {
+              "date": "2023-07-18",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-19",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-20",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-21",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-22",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-23",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-24",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-25",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-26",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-27",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            }
+          ],
+          "type": "deployment-frequency"
+        },
+        {
+          "data": [
+            {
+              "date": "2023-06-30",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-01",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-02",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-03",
+              "goal": 1,
+              "expectedRange": [
+                1,
+                9
+              ],
+              "rollingAverage": 5
+            },
+            {
+              "date": "2023-07-04",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-05",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-06",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-07",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-08",
+              "goal": 1,
+              "expectedRange": [
+                1,
+                9
+              ],
+              "rollingAverage": 5
+            },
+            {
+              "date": "2023-07-09",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-10",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-11",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-12",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-13",
+              "goal": 1,
+              "expectedRange": [
+                1,
+                9
+              ],
+              "rollingAverage": 18
+            },
+            {
+              "date": "2023-07-14",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-15",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-16",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-17",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-18",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-19",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-20",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-21",
+              "goal": 1,
+              "expectedRange": [
+                1,
+                9
+              ],
+              "rollingAverage": 5
+            },
+            {
+              "date": "2023-07-22",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-23",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-24",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-25",
+              "goal": 1,
+              "expectedRange": [
+                2,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-26",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-27",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            }
+          ],
+          "type": "lead-time-for-change"
+        },
+        {
+          "data": [
+            {
+              "date": "2023-06-30",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-01",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-02",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-03",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-04",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-05",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-06",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-07",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-08",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-09",
+              "goal": 1,
+              "expectedRange": [
+                3,
+                11
+              ],
+              "rollingAverage": 7
+            },
+            {
+              "date": "2023-07-10",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-11",
+              "goal": 1,
+              "expectedRange": [
+                1,
+                10
+              ],
+              "rollingAverage": 5
+            },
+            {
+              "date": "2023-07-12",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-13",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-14",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-15",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-16",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 5
+            },
+            {
+              "date": "2023-07-17",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-18",
+              "goal": 1,
+              "expectedRange": [
+                1,
+                9
+              ],
+              "rollingAverage": 5
+            },
+            {
+              "date": "2023-07-19",
+              "goal": 1,
+              "expectedRange": [
+                3,
+                11
+              ],
+              "rollingAverage": 7
+            },
+            {
+              "date": "2023-07-20",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-21",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-22",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-23",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-24",
+              "goal": 1,
+              "expectedRange": [
+                1,
+                9
+              ],
+              "rollingAverage": 5
+            },
+            {
+              "date": "2023-07-25",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-26",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-27",
+              "goal": 1,
+              "expectedRange": [
+                3,
+                11
+              ],
+              "rollingAverage": 7
+            }
+          ],
+          "type": "mean-time-to-recovery"
+        }
+      ],
+      "platform": "Gitlab",
+      "scorecard": [
+        {
+          "data": [
+            {
+              "date": "Mar",
+              "score": 63
+            },
+            {
+              "date": "Apr",
+              "score": 88
+            },
+            {
+              "date": "May",
+              "score": 35
+            },
+            {
+              "date": "Jun",
+              "score": 65
+            },
+            {
+              "date": "Jul",
+              "score": 80,
+              "projected": 80
+            },
+            {
+              "date": "Aug",
+              "projected": 85
+            },
+            {
+              "date": "Sep",
+              "projected": 67
+            },
+            {
+              "date": "Oct",
+              "projected": 60
+            },
+            {
+              "date": "Nov",
+              "projected": 72
+            },
+            {
+              "date": "Dec",
+              "projected": 75
+            }
+          ],
+          "current": 80
+        }
+      ]
+    },
+    {
+      "id": "kernelcanvas",
+      "name": "KernelCanvas",
+      "metrics": [
+        {
+          "data": [
+            {
+              "date": "2023-06-30",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                14
+              ],
+              "rollingAverage": 7
+            },
+            {
+              "date": "2023-07-01",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-02",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                10
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-03",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                10
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-04",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                10
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-05",
+              "goal": 15,
+              "expectedRange": [
+                7,
+                28
+              ],
+              "rollingAverage": 14
+            },
+            {
+              "date": "2023-07-06",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                10
+              ],
+              "rollingAverage": 5
+            },
+            {
+              "date": "2023-07-07",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                10
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-08",
+              "goal": 15,
+              "expectedRange": [
+                6,
+                18
+              ],
+              "rollingAverage": 12
+            },
+            {
+              "date": "2023-07-09",
+              "goal": 15,
+              "expectedRange": [
+                3,
+                9
+              ],
+              "rollingAverage": 6
+            },
+            {
+              "date": "2023-07-10",
+              "goal": 15,
+              "expectedRange": [
+                4,
+                20
+              ],
+              "rollingAverage": 9
+            },
+            {
+              "date": "2023-07-11",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                10
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-12",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                30
+              ],
+              "rollingAverage": 10
+            },
+            {
+              "date": "2023-07-13",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                10
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-14",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                10
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-15",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                10
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-16",
+              "goal": 15,
+              "expectedRange": [
+                2,
+                18
+              ],
+              "rollingAverage": 8
+            },
+            {
+              "date": "2023-07-17",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                15
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-18",
+              "goal": 15,
+              "expectedRange": [
+                2,
+                14
+              ],
+              "rollingAverage": 7
+            },
+            {
+              "date": "2023-07-19",
+              "goal": 15,
+              "expectedRange": [
+                4,
+                30
+              ],
+              "rollingAverage": 15
+            },
+            {
+              "date": "2023-07-20",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                10
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-21",
+              "goal": 15,
+              "expectedRange": [
+                2,
+                12
+              ],
+              "rollingAverage": 6
+            },
+            {
+              "date": "2023-07-22",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-23",
+              "goal": 15,
+              "expectedRange": [
+                2,
+                22
+              ],
+              "rollingAverage": 11
+            },
+            {
+              "date": "2023-07-24",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                10
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-25",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                10
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-26",
+              "goal": 15,
+              "expectedRange": [
+                7,
+                21
+              ],
+              "rollingAverage": 14
+            },
+            {
+              "date": "2023-07-27",
+              "goal": 15,
+              "expectedRange": [
+                0,
+                10
+              ],
+              "rollingAverage": 0
+            }
+          ],
+          "type": "change-failure-rate"
+        },
+        {
+          "data": [
+            {
+              "date": "2023-06-30",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-01",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-02",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-03",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-04",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-05",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-06",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-07",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-08",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-09",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-10",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-11",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-12",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-13",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-14",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-15",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-16",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-17",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-18",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-19",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-20",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-21",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-22",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-23",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-24",
+              "goal": 2,
+              "expectedRange": [
+                2,
+                4
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-25",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-26",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                4
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-27",
+              "goal": 2,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            }
+          ],
+          "type": "deployment-frequency"
+        },
+        {
+          "data": [
+            {
+              "date": "2023-06-30",
+              "goal": 1,
+              "expectedRange": [
+                4,
+                20
+              ],
+              "rollingAverage": 10
+            },
+            {
+              "date": "2023-07-01",
+              "goal": 1,
+              "expectedRange": [
+                4,
+                22
+              ],
+              "rollingAverage": 12
+            },
+            {
+              "date": "2023-07-02",
+              "goal": 1,
+              "expectedRange": [
+                4,
+                14
+              ],
+              "rollingAverage": 9
+            },
+            {
+              "date": "2023-07-03",
+              "goal": 1,
+              "expectedRange": [
+                4,
+                16
+              ],
+              "rollingAverage": 8
+            },
+            {
+              "date": "2023-07-04",
+              "goal": 1,
+              "expectedRange": [
+                6,
+                22
+              ],
+              "rollingAverage": 14
+            },
+            {
+              "date": "2023-07-05",
+              "goal": 1,
+              "expectedRange": [
+                4,
+                16
+              ],
+              "rollingAverage": 13
+            },
+            {
+              "date": "2023-07-06",
+              "goal": 1,
+              "expectedRange": [
+                5,
+                18
+              ],
+              "rollingAverage": 11
+            },
+            {
+              "date": "2023-07-07",
+              "goal": 1,
+              "expectedRange": [
+                3,
+                14
+              ],
+              "rollingAverage": 7
+            },
+            {
+              "date": "2023-07-08",
+              "goal": 1,
+              "expectedRange": [
+                3,
+                20
+              ],
+              "rollingAverage": 10
+            },
+            {
+              "date": "2023-07-09",
+              "goal": 1,
+              "expectedRange": [
+                1,
+                14
+              ],
+              "rollingAverage": 7
+            },
+            {
+              "date": "2023-07-10",
+              "goal": 1,
+              "expectedRange": [
+                3,
+                19
+              ],
+              "rollingAverage": 12
+            },
+            {
+              "date": "2023-07-11",
+              "goal": 1,
+              "expectedRange": [
+                4,
+                15
+              ],
+              "rollingAverage": 9
+            },
+            {
+              "date": "2023-07-12",
+              "goal": 1,
+              "expectedRange": [
+                5,
+                19
+              ],
+              "rollingAverage": 13
+            },
+            {
+              "date": "2023-07-13",
+              "goal": 1,
+              "expectedRange": [
+                4,
+                12
+              ],
+              "rollingAverage": 8
+            },
+            {
+              "date": "2023-07-14",
+              "goal": 1,
+              "expectedRange": [
+                5,
+                17
+              ],
+              "rollingAverage": 14
+            },
+            {
+              "date": "2023-07-15",
+              "goal": 1,
+              "expectedRange": [
+                6,
+                18
+              ],
+              "rollingAverage": 11
+            },
+            {
+              "date": "2023-07-16",
+              "goal": 1,
+              "expectedRange": [
+                6,
+                15
+              ],
+              "rollingAverage": 10
+            },
+            {
+              "date": "2023-07-17",
+              "goal": 1,
+              "expectedRange": [
+                3,
+                11
+              ],
+              "rollingAverage": 7
+            },
+            {
+              "date": "2023-07-18",
+              "goal": 1,
+              "expectedRange": [
+                8,
+                17
+              ],
+              "rollingAverage": 12
+            },
+            {
+              "date": "2023-07-19",
+              "goal": 1,
+              "expectedRange": [
+                4,
+                15
+              ],
+              "rollingAverage": 9
+            },
+            {
+              "date": "2023-07-20",
+              "goal": 1,
+              "expectedRange": [
+                6,
+                19
+              ],
+              "rollingAverage": 13
+            },
+            {
+              "date": "2023-07-21",
+              "goal": 1,
+              "expectedRange": [
+                4,
+                12
+              ],
+              "rollingAverage": 8
+            },
+            {
+              "date": "2023-07-22",
+              "goal": 1,
+              "expectedRange": [
+                6,
+                20
+              ],
+              "rollingAverage": 14
+            },
+            {
+              "date": "2023-07-23",
+              "goal": 1,
+              "expectedRange": [
+                7,
+                16
+              ],
+              "rollingAverage": 11
+            },
+            {
+              "date": "2023-07-24",
+              "goal": 1,
+              "expectedRange": [
+                4,
+                17
+              ],
+              "rollingAverage": 10
+            },
+            {
+              "date": "2023-07-25",
+              "goal": 1,
+              "expectedRange": [
+                3,
+                10
+              ],
+              "rollingAverage": 7
+            },
+            {
+              "date": "2023-07-26",
+              "goal": 1,
+              "expectedRange": [
+                8,
+                16
+              ],
+              "rollingAverage": 12
+            },
+            {
+              "date": "2023-07-27",
+              "goal": 1,
+              "expectedRange": [
+                4,
+                13
+              ],
+              "rollingAverage": 9
+            }
+          ],
+          "type": "lead-time-for-change"
+        },
+        {
+          "data": [
+            {
+              "date": "2023-06-30",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-01",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                12
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-02",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                6
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-03",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-04",
+              "goal": 1,
+              "expectedRange": [
+                2,
+                14
+              ],
+              "rollingAverage": 9
+            },
+            {
+              "date": "2023-07-05",
+              "goal": 1,
+              "expectedRange": [
+                1,
+                5
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-06",
+              "goal": 1,
+              "expectedRange": [
+                3,
+                16
+              ],
+              "rollingAverage": 10
+            },
+            {
+              "date": "2023-07-07",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-08",
+              "goal": 1,
+              "expectedRange": [
+                1,
+                9
+              ],
+              "rollingAverage": 5
+            },
+            {
+              "date": "2023-07-09",
+              "goal": 1,
+              "expectedRange": [
+                2,
+                10
+              ],
+              "rollingAverage": 6
+            },
+            {
+              "date": "2023-07-10",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-11",
+              "goal": 1,
+              "expectedRange": [
+                2,
+                14
+              ],
+              "rollingAverage": 7
+            },
+            {
+              "date": "2023-07-12",
+              "goal": 1,
+              "expectedRange": [
+                1,
+                9
+              ],
+              "rollingAverage": 5
+            },
+            {
+              "date": "2023-07-13",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                9
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-14",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-15",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-16",
+              "goal": 1,
+              "expectedRange": [
+                1,
+                9
+              ],
+              "rollingAverage": 5
+            },
+            {
+              "date": "2023-07-17",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-18",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 1
+            },
+            {
+              "date": "2023-07-19",
+              "goal": 1,
+              "expectedRange": [
+                3,
+                11
+              ],
+              "rollingAverage": 7
+            },
+            {
+              "date": "2023-07-20",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-21",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 0
+            },
+            {
+              "date": "2023-07-22",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                5
+              ],
+              "rollingAverage": 2
+            },
+            {
+              "date": "2023-07-23",
+              "goal": 1,
+              "expectedRange": [
+                1,
+                9
+              ],
+              "rollingAverage": 5
+            },
+            {
+              "date": "2023-07-24",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 4
+            },
+            {
+              "date": "2023-07-25",
+              "goal": 1,
+              "expectedRange": [
+                4,
+                12
+              ],
+              "rollingAverage": 8
+            },
+            {
+              "date": "2023-07-26",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                7
+              ],
+              "rollingAverage": 3
+            },
+            {
+              "date": "2023-07-27",
+              "goal": 1,
+              "expectedRange": [
+                0,
+                8
+              ],
+              "rollingAverage": 2
+            }
+          ],
+          "type": "mean-time-to-recovery"
+        }
+      ],
+      "platform": "Gitlab",
+      "scorecard": [
+        {
+          "data": [
+            {
+              "date": "Mar",
+              "score": 72
+            },
+            {
+              "date": "Apr",
+              "score": 75
+            },
+            {
+              "date": "May",
+              "score": 50
+            },
+            {
+              "date": "Jun",
+              "score": 60
+            },
+            {
+              "date": "Jul",
+              "score": 69,
+              "projected": 69
+            },
+            {
+              "date": "Aug",
+              "projected": 72
+            },
+            {
+              "date": "Sep",
+              "projected": 69
+            },
+            {
+              "date": "Oct",
+              "projected": 62
+            },
+            {
+              "date": "Nov",
+              "projected": 55
+            },
+            {
+              "date": "Dec",
+              "projected": 62
+            }
+          ],
+          "current": 69
+        }
+      ]
+    }
+  ]
+}
