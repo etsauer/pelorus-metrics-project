@@ -17,7 +17,7 @@ projects:
         remote: origin
         revision: main
       remotes:
-        origin: https://github.com/etsauer/pelorus-api.git
+        origin: https://github.com/lab-monkeys/pelorus-api.git
   - name: developer-intelligence-prototype
     git:
       checkoutFrom:
@@ -48,6 +48,14 @@ components:
         protocol: https
         name: pelorus-metrics
         targetPort: 3000
+      - exposure: public
+        protocol: https
+        name: pelorus-api
+        targetPort: 8080
+      - exposure: internal
+        protocol: https
+        name: quarkus-debug
+        targetPort: 5005
 - volume:
     size: 10Gi
   name: projects
@@ -126,6 +134,12 @@ commands:
     workingDir: "${PROJECTS_ROOT}/developer-intelligence-prototype"
     label: "Developer Intelligence Dev Mode"
   id: dev-intel-run
+- exec:
+    commandLine: ". ${PROJECTS_ROOT}/env-tmp/set-env.sh ; quarkus dev -Dquarkus.tls.trust-all=true -Dquarkus.http.host=0.0.0.0"
+    component: dev-tools
+    workingDir: "${PROJECTS_ROOT}/pelorus-api"
+    label: "Pelorus API Dev Mode"
+  id: pelorus-api-run
 - exec:
     commandLine: "nohup ${PROJECT_SOURCE}/dev-init/env-init.sh > ${PROJECTS_ROOT}/env-init.log 2>&1 &"
     component: dev-tools
