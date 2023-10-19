@@ -135,7 +135,7 @@ commands:
     label: "Developer Intelligence Dev Mode"
   id: dev-intel-run
 - exec:
-    commandLine: ". ${PROJECTS_ROOT}/env-tmp/set-env.sh ; quarkus dev -Dquarkus.tls.trust-all=true -Dquarkus.http.host=0.0.0.0"
+    commandLine: ". ${PROJECTS_ROOT}/env-tmp/set-env.sh ; quarkus dev -Dquarkus.analytics.disabled=true -Dquarkus.tls.trust-all=true -Dquarkus.http.host=0.0.0.0"
     component: dev-tools
     workingDir: "${PROJECTS_ROOT}/pelorus-api"
     label: "Pelorus API Dev Mode"
