@@ -1,0 +1,9 @@
+kind: OAuthClient
+apiVersion: oauth.openshift.io/v1
+metadata:
+ name: developer-intelligence
+secret: "hello-there" 
+redirectURIs:
+ - "${APP_ROUTE}" 
+grantMethod: prompt 
+
