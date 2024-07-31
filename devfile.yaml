@@ -100,8 +100,9 @@ commands:
     label: "Pelorus API Dev Mode"
   id: pelorus-api-run
 - exec:
-    commandLine: "nohup ${PROJECT_SOURCE}/dev-init/env-init.sh > ${PROJECTS_ROOT}/env-init.log 2>&1 &"
+    commandLine: "nohup ./dev-init/env-init.sh > ${PROJECTS_ROOT}/env-init.log 2>&1 &"
     component: dev-tools
+    workingDir: "${PROJECTS_ROOT}/dev-workspace"
   id: init-env
 events:
   preStart:
