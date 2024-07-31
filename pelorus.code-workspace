@@ -1,13 +1,20 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"name": "pelorus",
+			"path": "/projects/pelorus"
 		},
 		{
-			"path": "../developer-intelligence-prototype"
+			"name": "pelorus-api",
+			"path": "/projects/pelorus-api"
 		},
 		{
-			"path": "../pelorus-api"
+			"name": "developer-intelligence-prototype",
+			"path": "/projects/developer-intelligence-prototype"
+		},
+		{
+			"name": "dev-workspace",
+			"path": "/projects/dev-workspace"
 		}
 	],
 	"extensions": {
@@ -22,7 +29,8 @@
 			"johnpapa.winteriscoming",
 			"cnshenj.vscode-task-manager",
 			"angular.ng-template",
-			"johnpapa.angular2"
+			"johnpapa.angular2",
+			"ms-python.python"
 		]
 	},
 	"settings": {
