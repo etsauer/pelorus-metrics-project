@@ -1,34 +1,39 @@
 schemaVersion: 2.2.0
-attributes:
-  controller.devfile.io/storage-type: per-workspace
 metadata:
   name: pelorus-workspace
 projects:
-  - name: pelorus-metrics-project
+  - name: pelorus
     git:
       checkoutFrom:
-        remote: origin
+        remote: upstream
         revision: main
       remotes:
-        origin: https://github.com/lab-monkeys/pelorus-metrics-project.git
+        upstream: https://github.com/dora-metrics/pelorus.git
   - name: pelorus-api
     git:
       checkoutFrom:
-        remote: origin
+        remote: upstream
         revision: main
       remotes:
-        origin: https://github.com/lab-monkeys/pelorus-api.git
+        upstream: https://github.com/dora-metrics/pelorus-api.git
   - name: developer-intelligence-prototype
     git:
       checkoutFrom:
-        remote: origin
+        remote: upstream
         revision: main
       remotes:
-        origin: https://github.com/lab-monkeys/developer-intelligence-prototype.git
+        upstream: https://github.com/lab-monkeys/developer-intelligence-prototype.git
+  - name: dev-workspace
+    git:
+      checkoutFrom:
+        remote: upstream
+        revision: main
+      remotes:
+        upstream: https://github.com/dora-metrics/dev-workspace.git
 components:
 - name: dev-tools
   container: 
-    image: quay.io/cgruver0/che/che-dev-image:latest
+    image: quay.io/etsauer/developer-base:java21-node20-python311-1.0
     memoryLimit: 6Gi
     mountSources: true
     env:
@@ -37,7 +42,7 @@ components:
     - name: HISTFILE
       value: "/projects/home/.sh_history"
     - name: VSCODE_DEFAULT_WORKSPACE
-      value: "/projects/pelorus-metrics-project/pelorus-metrics-project.code-workspace"
+      value: "/projects/dev-workspace/pelorus.code-workspace"
     volumeMounts:
     - name: m2
       path: /home/user/.m2
@@ -65,52 +70,6 @@ components:
 - volume:
     size: 2Gi
   name: npm
-- name: prometheus
-  container:
-    image: quay.io/prometheus/prometheus:v2.43.0
-    sourceMapping: /projects
-    args:
-      - '--config.file=/projects/pelorus-metrics-project/dev-init/prometheus.yaml'
-      - '--storage.tsdb.path=/prometheus'
-      - '--web.console.libraries=/usr/share/prometheus/console_libraries'
-      - '--web.console.templates=/usr/share/prometheus/consoles'
-    command:
-      - '/bin/prometheus'
-    endpoints:
-      - exposure: public
-        name: prometheus
-        targetPort: 9090
-    memoryRequest: 32M
-    memoryLimit: 128M
-    volumeMounts:
-      - name: prometheus-data
-        path: /prometheus
-- volume:
-    size: 2Gi
-  name: prometheus-data
-- name: keycloak
-  container:
-    image: quay.io/keycloak/keycloak:22.0.4
-    sourceMapping: /projects
-    memoryLimit: 1Gi
-    args:
-      - "start-dev"
-    env:
-      - name: KC_HTTP_PORT
-        value: "8081"
-      - name: KEYCLOAK_ADMIN
-        value: admin
-      - name: KEYCLOAK_ADMIN_PASSWORD
-        value: admin
-      - name: PROXY_ADDRESS_FORWARDING
-        value: "true"
-      - name: KC_PROXY
-        value: edge
-    endpoints:
-      - exposure: public
-        protocol: https
-        name: keycloak
-        targetPort: 8081
 - name: oc-cli
   container:
     args:
@@ -141,16 +100,12 @@ commands:
     label: "Pelorus API Dev Mode"
   id: pelorus-api-run
 - exec:
-    commandLine: "nohup ${PROJECT_SOURCE}/dev-init/env-init.sh > ${PROJECTS_ROOT}/env-init.log 2>&1 &"
+    commandLine: "nohup ./dev-init/env-init.sh > ${PROJECTS_ROOT}/env-init.log 2>&1 &"
     component: dev-tools
+    workingDir: "${PROJECTS_ROOT}/dev-workspace"
   id: init-env
-- exec:
-    commandLine: "nohup ${PROJECT_SOURCE}/dev-init/keycloak.sh> ${PROJECTS_ROOT}/keycloak-init.log 2>&1 &"
-    component: keycloak
-  id: init-keycloak
 events:
   preStart:
     - cp-oc-cli
   postStart:
     - init-env
-    - init-keycloak
