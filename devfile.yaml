@@ -90,8 +90,8 @@ commands:
 - exec:
     commandLine: ". ${PROJECTS_ROOT}/env-tmp/set-env.sh ; export NODE_EXTRA_CA_CERTS=/tmp/node-extra-certificates/ca.crt ; npm run dev"
     component: dev-tools
-    workingDir: "${PROJECTS_ROOT}/developer-intelligence-prototype"
-    label: "Developer Intelligence Dev Mode"
+    workingDir: "${PROJECTS_ROOT}/pelorus-ui"
+    label: "Pelorus UI Dev Mode"
   id: dev-intel-run
 - exec:
     commandLine: ". ${PROJECTS_ROOT}/env-tmp/set-env.sh ; quarkus dev -Dquarkus.analytics.disabled=true -Dquarkus.tls.trust-all=true -Dquarkus.http.host=0.0.0.0"
